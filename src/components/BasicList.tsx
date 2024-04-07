@@ -3,7 +3,9 @@ export default function BasicList({ items }: { items: string[] }) {
   return (
     <ul>
       {items.map((item, index) => (
-        <li key={index}>{item}</li>
+        <li role="listitem" key={index}>
+          {item}
+        </li>
       ))}
     </ul>
   );
