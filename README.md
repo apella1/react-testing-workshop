@@ -3,7 +3,7 @@
 ## Setting Up
 
 - Run `yarn` to install the dependencies.
-- Run `yarn start` to start the development server.
+- Run `yarn dev` to start the development server.
 
 ## Running Tests
 
